@@ -4,21 +4,9 @@ var through2 = require('through2'),
   path = require('path'),
   commandRunner = require('./lib/commandRunner'),
   cmdMap = {
-    'tsd.json': {
-      cmd: 'tsd',
-      args: ['reinstall', '--save']
-    },
     'bower.json': {
       cmd: 'bower',
-      args: ['install', '--config.interactive=false']
-    },
-    'package.json': {
-      cmd: 'npm',
-      args: ['install']
-    },
-    'requirements.txt': {
-      cmd: 'pip',
-      args: ['install', '-r', 'requirements.txt']
+      args: ['update', '--config.interactive=false']
     }
   };
 

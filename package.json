@@ -1,27 +1,26 @@
 {
-  "name": "gulp-install",
-  "version": "0.6.0",
+  "name": "gulp-bower-update",
+  "version": "0.1.0",
   "description": "Automatically install npm, bower, tsd, and pip packages/dependencies if the relative configurations are found in the gulp file stream respectively",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/slushjs/gulp-install"
+    "url": "git://github.com/solobat/gulp-install"
   },
   "keywords": [
     "gulpplugin",
     "bower",
     "npm",
-    "install"
+    "update"
   ],
-  "author": "Joakim Carlstein <joakim@klei.se>",
+  "author": "Tomas Yang <solopea@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/slushjs/gulp-install/issues"
+    "url": "https://github.com/solobat/gulp-install/issues"
   },
-  "homepage": "https://github.com/slushjs/gulp-install",
+  "homepage": "https://github.com/solobat/gulp-install",
   "dependencies": {
     "gulp-util": "^3.0.4",
     "through2": "^2.0.0",
